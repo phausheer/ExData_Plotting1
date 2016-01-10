@@ -44,4 +44,3 @@ runWeek1Plot2 <- function() {
   plot(df3$PosixltDateTime, df3$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
   dev.off()
 }
-
